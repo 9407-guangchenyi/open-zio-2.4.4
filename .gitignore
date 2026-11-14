@@ -1,0 +1,50 @@
+# ===== Gradle 构建缓存（体积巨大，绝不提交）=====
+.gradle-user-home/
+.gradle/
+build/
+out/
+bin/
+
+# ===== 运行时生成 =====
+run/
+logs/
+crash-reports/
+mods/
+
+# ===== IDE =====
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.settings/
+.classpath
+.project
+.svn/
+
+# ===== Java 编译产物 =====
+*.class
+*.jar
+!.gitignore
+!gradle/wrapper/gradle-wrapper.jar
+
+# ===== 压缩包 =====
+*.zip
+*.tar.gz
+*.rar
+
+# ===== 崩溃日志 =====
+hs_err_pid*
+replay_pid*
+*.log
+
+# ===== 系统文件 =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== 临时文件 =====
+*.tmp
+*.bak
+*.orig
+*.rej
